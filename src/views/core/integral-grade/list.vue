@@ -32,8 +32,10 @@
 //
 <script>
 import integralGradeApi from '@/api/core/integral-grade'
+//debugger
 export default {
   // 定义数据模型
+
   data() {
     return {
       list: [], // 数据列表

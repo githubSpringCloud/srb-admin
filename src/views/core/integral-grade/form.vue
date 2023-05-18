@@ -58,7 +58,7 @@ export default {
 
     // 新增数据
     saveData() {
-      // debugger
+      debugger
       integralGradeApi.save(this.integralGrade).then((response) => {
         this.$message({
           type: 'success',
